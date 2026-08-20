@@ -31,7 +31,7 @@ with col2:
     st.write('El texto es fundamental para tu intefaz')
 
 st.subheader("Uso de Botones")
-if st.button('Presiona el boton')
+if st.button('Presiona el boton'):
   st.write('Gracias por presionar')
 else: 
   st.write('No has presionado aun')
